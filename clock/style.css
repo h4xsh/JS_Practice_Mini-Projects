@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  font-family: "Poppins", sans-serif;
+  color: #fff; 
+}
+.clock-container {
+  background: rgba(255, 255, 255, 0.1); 
+  padding: 40px 60px; 
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px); 
+}
+#clock {
+  font-size: 4rem;
+  letter-spacing: 3px; 
+  text-align: center;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+}
